@@ -1,0 +1,932 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Gruppo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital@0;1&family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Gruppo&family=IM+Fell+DW+Pica+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,569;1,569&family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Gruppo&family=IM+Fell+DW+Pica+SC&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,532;1,532&family=Six+Caps&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Gruppo&family=IM+Fell+DW+Pica+SC&family=Marcellus+SC&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,532;1,532&family=Six+Caps&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Gruppo&family=IM+Fell+DW+Pica+SC&family=Marcellus+SC&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,532;1,532&family=Six+Caps&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Gayathri:wght@100;400;700&family=Gruppo&family=IM+Fell+DW+Pica+SC&family=Marcellus+SC&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,532;1,532&family=Six+Caps&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&family=Bebas+Neue&family=Bruno+Ace+SC&family=Cinzel:wght@400..900&family=Gayathri:wght@100;400;700&family=Gruppo&family=IM+Fell+DW+Pica+SC&family=Marcellus+SC&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,532;1,532&family=Rock+Salt&family=Six+Caps&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&family=Bebas+Neue&family=Bruno+Ace+SC&family=Cinzel:wght@400..900&family=Gayathri:wght@100;400;700&family=Gruppo&family=IM+Fell+DW+Pica+SC&family=Marcellus+SC&family=Notable&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,532;1,532&family=Rock+Salt&family=Six+Caps&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tulpen+One&display=swap');
+html{
+  scroll-behavior: smooth; 
+}
+body{
+  background-color: black;
+  
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  font-size: 30px;
+  font-style:unset;
+  font-family: unset;
+  color: white;
+  font-weight: bolder;
+  
+}
+.top-left{
+  padding-bottom: 50px;
+  padding-left: 20px;
+  align-content: center;
+  
+}
+.top-right{
+  padding-left:20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Cinzel",sans-serif
+}
+
+.home{
+  padding: 10px;
+  border-style: solid;
+  border-color:black;
+  border-radius:40px;
+  align-content: space-between;
+}
+.About{
+  align-content: space-between;
+  padding: 10px;
+  border-style: solid;
+  border-color:black;
+  border-radius:40px;
+}
+.members{
+  align-content: space-between;
+  padding: 10px;
+  border-style:solid;
+ border-color:black;
+ border-radius:40px;
+}
+.events{
+  align-content: space-between;
+  padding: 10px;
+  border-style:solid;
+  border-color:black;
+  border-radius:40px;
+}
+.contact{
+  align-content: space-between;
+  padding: 10px;
+  border-style:solid;
+  border-color:black;
+  border-radius:40px;
+}
+.knit{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 60px;
+  align-content: center;
+  justify-items: center;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align:bottom;
+  padding-top:50px;
+  background-image:url(/Screenshot_20240307-144220_Gallery.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-style: initial;
+  text-shadow: 5px 6px 20px white;
+  
+  
+  
+  
+  
+}
+.ka{
+  text-align:center;
+  padding-top: 10px;
+  font-size:200px;
+  font-weight: 400px;
+}
+h2{
+  text-align: center;
+  font-family: cursive;
+}
+.vi{
+  text-align: center;
+  font-size:140px;
+  font-weight: 400px;
+  
+}
+.vik{
+  text-align:center;
+  padding-top: 10px;
+  align-content:bottom;
+  font-size:110px;
+  font-weight: 400px;
+  
+}
+.aBout{
+  color:White;
+  font-size: 60px;
+  font-weight: bold;
+  border-style:solid;
+  padding-top: 250px;
+  border-color: black;
+  font-family: fantasy -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style:arial;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: lightgrey;
+  
+  
+}
+p{
+  border-style: solid;
+  border-color:black;
+  padding-top:30px;
+  padding-bottom: 10px;
+  font-size: 45px;
+  word-wrap: break-word;
+  text-align: center;
+  text-transform: none;
+  color: ghostwhite;
+  font-family: "Gruppo", sans-serif; 
+  font-weight: bold; 
+  font-style: normal;
+  border-radius: 70px;
+  padding-left: 20px;
+  padding-right:0px;
+  
+}
+h3{
+  border-style: solid;
+  border-color: black;
+  padding-top: 250px;
+  font-family: "Notable",sans-serif;
+  color: linen;
+}
+.teaMs{
+  color: honeydew;
+  border-style: solid;
+  border-color: black;
+  padding-top: 90px;
+  font-family: "Bebas Neue" , sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  border-radius: 70px;
+  
+}
+.softskills{
+  padding-top: 100px;
+  padding-left: 0px;
+  padding-right: 10px;
+  height: 600px;
+  width: 600px;
+  align-content: center;
+}
+.skillssoft{
+  height:600px;
+  width:600px;
+  padding-top: 50px;
+  border-radius: 55px;
+  align-content: center;
+  padding-right: 10px ;
+}
+img{
+  border-radius: 55px;
+}
+.skills{
+  border-style: solid;
+  border-color: black;
+  padding-top: 100px;
+}
+.justin{
+  color: ghostwhite;
+  border-style: solid;
+  border-color: black;
+  padding-top: 80px;
+  font-size: 40px;
+  padding-left: 150px;
+  font-family: "Bruno Ace SC",sans-serif;
+  font-weight: 20px;
+}
+.Justin{
+  color: white;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  font-size: 50px;
+  padding-left:200px;
+  font-family: "Im Fell DW pica SC", sans-serif;
+  
+  
+}
+.ab{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.bc{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ca{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ad{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.de{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Teams{
+  color: honeydew;
+  border-style: solid;
+  border-color: black;
+  padding-top: 90px;
+  font-family: "Bebas Neue" , sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.teCh{
+  padding-top: 100px;
+  height: 600px;
+  width: 612px;
+  height: 612px;
+  padding-left: 0px;
+  width: 1000px;
+  align-content: center;
+}
+.tecH{
+  padding-top: 120px;
+  height: 600px;
+  width: 612px;
+  height: 612px;
+  padding-left: 0px;
+  width: 1000px;
+  align-content: center;
+}
+.JuStIn{
+  color: ghostwhite;
+  border-style: solid;
+  border-color: black;
+  padding-top: 100px;
+  font-size: 40px;
+  padding-left: 150px;
+  font-family: "Bruno Ace SC",sans-serif;
+  font-weight: 20px;
+}
+.jUsTiN{
+  color: white;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  font-size: 50px;
+  padding-left:65px;
+  font-family: "Im Fell DW pica SC", sans-serif;
+  padding-right: 80px;
+  
+}
+.AB{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.BC{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.CA{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.AD{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.DE{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.jUSTIN{
+  color: honeydew;
+  border-style: solid;
+  border-color: black;
+  padding-top: 90px;
+  font-family: "Bebas Neue" , sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.Design{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.dEsign{
+  color: ghostwhite;
+  border-style: solid;
+  border-color: black;
+  padding-top: 100px;
+  font-size: 40px;
+  padding-left: 150px;
+  font-family: "Bruno Ace SC",sans-serif;
+  font-weight: 20px;
+}
+.deSign{
+  color: white;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  font-size: 50px;
+  padding-left:65px;
+  font-family: "Im Fell DW pica SC", sans-serif;
+  padding-right: 80px;
+}
+.Ab{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+.Bc{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Ca{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Ad{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.De{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.LIBRARY{
+  color: honeydew;
+  border-style: solid;
+  border-color: black;
+  padding-top: 90px;
+  font-family: "Bebas Neue" , sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.LiBrary{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.LibrarY{
+  color: ghostwhite;
+  border-style: solid;
+  border-color: black;
+  padding-top: 100px;
+  font-size: 40px;
+  padding-left: 150px;
+  font-family: "Bruno Ace SC",sans-serif;
+  font-weight: 20px;
+}
+.liBrary{
+  color: white;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  font-size: 50px;
+  padding-left:65px;
+  font-family: "Im Fell DW pica SC", sans-serif;
+  padding-right: 80px;
+}
+.va{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.vb{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.vc{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.vd{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ve{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.QUIZ{
+  color: honeydew;
+  border-style: solid;
+  border-color: black;
+  padding-top: 90px;
+  font-family: "Bebas Neue" , sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.QuiZ{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.quiZ{
+  color: ghostwhite;
+  border-style: solid;
+  border-color: black;
+  padding-top: 100px;
+  font-size: 40px;
+  padding-left: 150px;
+  font-family: "Bruno Ace SC",sans-serif;
+  font-weight: 20px;
+}
+.quIz{
+    color: white;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  font-size: 50px;
+  padding-left:65px;
+  font-family: "Im Fell DW pica SC", sans-serif;
+  padding-right: 80px;
+}
+.Va{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Vb{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Vc{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Vd{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Vd{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Ve{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.eVents{
+  color:White;
+  font-size: 60px;
+  font-weight: bold;
+  border-style:solid;
+  padding-top: 330px;
+  border-color: black;
+  font-family: fantasy -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style:arial;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: lightgrey;
+  
+}
+.contacT{
+  color:White;
+  font-size: 60px;
+  font-weight: bold;
+  border-style:solid;
+  padding-top: 330px;
+  border-color: black;
+  font-family: fantasy -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style:arial;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: lightgrey;
+  
+}
+.imageph{
+  border-style: solid;
+  border-color: black;
+  padding-top: 50px;
+  padding-left: 182px;
+}
+.imageml{
+  border-style: solid;
+  border-color: black;
+  padding-top: 50px;
+  padding-left: 182px;
+}
+.imagelo{
+  border-style: solid;
+  border-color: black;
+  padding-top: 50px;
+  padding-left: 182px;
+}
+.Address{
+  display: flex;
+  flex-direction: row;
+}
+.info{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  font-family: "Raleway" ,sans-serif;
+}
+.phone{
+  border-style: solid;
+  border-color: black;
+  padding-top: 60px;
+  padding-left: 62px;
+}
+.email{
+  border-style: solid;
+  border-color: black;
+  padding-top: 65px;
+  padding-left: 62px;
+}
+.location{
+  border-style: solid;
+  border-color: black;
+  padding-top: 65px;
+  padding-left: 62px;
+}
+.learnmore{
+  text-align: center;
+  color:White;
+  font-size: 60px;
+  font-weight: bold;
+  border-style:solid;
+  padding-top: 330px;
+  border-color: black;
+  font-family: fantasy -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style:arial;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: lightgrey;
+  
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+  text-decoration: none; 
+}
+a:hover{
+  color: blue;
+}
+.footer{
+  color: white;
+  border-style: solid;
+  border-color: black;
+  padding-top:380px;
+  font-weight: 150px;
+  font-family: "Gayathri", sans-serif;
+  
+}
+.learmore{
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: black;
+  padding-top: 25px;
+  padding-right: 50px;
+  padding-left: 80px;
+}
+.morelearn{
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: black;
+  padding-top: 25px;
+  padding-left: 300px;
+}
+.le{
+  border-style: solid;
+  border-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: inline;
+  font-size: 36px;
+  text-align: center;
+}
+.fa{
+  border-style: solid;
+  border-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left:20px;
+  padding-right: 20px;
+  display: inline;
+  font-size: 36px;
+  text-align: center;
+}
+.Ls{
+  border-style: solid;
+  border-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left:20px;
+  padding-right: 20px;
+  display: inline;
+  font-size: 36px;
+  text-align: center;
+}
+.pr{
+  border-style: solid;
+  border-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left:20px;
+  padding-right: 20px;
+  display: inline;
+  font-size: 36px;
+  text-align: center;
+}
+.cl{
+  border-style: solid;
+  border-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left:20px;
+  padding-right: 20px;
+  display: inline;
+  font-size: 36px;
+  text-align: center;
+}
+.me{
+  border-style: solid;
+  border-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left:20px;
+  padding-right: 20px;
+  display: inline;
+  font-size: 36px;
+  text-align: center;
+}
+.sk{
+  border-style: solid;
+  border-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left:20px;
+  padding-right: 20px;
+  display: inline;
+  font-size: 36px;
+  text-align: center;
+}
+.in{
+  border-style: solid;
+  border-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left:20px;
+  padding-right: 20px;
+  display: inline;
+  font-size: 36px;
+  text-align: center;
+}
+
+.butt{
+  text-align: center;
+  border-style: solid;
+  padding-top: 150px;
+}
+button{
+  align-content: center;
+  background-color: whitesmoke;
+  font-size: 50px;
+  text-align: center;
+  color: darkblue;
+  font-weight: 300px;
+  font-family: "Raleway",sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  border-style: solid;
+  border-color: white;
+  border-radius: 40px;
+}
+button:hover{
+  background-color: lightgoldenrodyellow;
+  color: black;
+  transition-duration: 0.1s;
+}
+.follo{
+  border-style: solid;
+  border-color: black;
+  padding-top: 50px;
+}
+.lastt{
+  color: white;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  padding-top: 250px;
+  font-size: 30px;
+  font-family: "Marcellus SC",sans-serif;
+  font-weight: 150px;
+}
+.follow{
+  border-color: black;
+  border-style: solid;
+  padding-top: 110px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.instagram{
+  border-style: solid;
+  border-color: black;
+  padding-left: 40px;
+  padding-right: 75px;
+}
+.facebook{
+  border-style: solid;
+  border-color: black;
+  padding-left: 50px;
+  padding-right: 75px;
+}
+.linkdln{
+  border-style: solid;
+  border-color: black;
+  padding-right: 50px;
+  padding-left: 75px;
+}
+.youtube{
+  border-style: solid;
+  border-color: black;
+  padding-right: 50px;
+  padding-left: 75px;
+}
+.whatsapp{
+  border-style: solid;
+  border-color: black;
+  padding-right: 50px;
+  padding-left: 75px;
+}
+.copy{
+  color: white;
+  border-style: solid;
+  border-color: black;
+  padding-top: 80px;
+  font-size: 20px;
+  font-family: "Gayathri",sans-serif;
+  text-align: center;
+}
+.footimg{
+  border-style: solid;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  padding-left: 250px;
+}
+.final{
+  background-color: black;
+  border-radius: 50px;
+  background-size: black;
+}
+.elclogo{
+  border-style: solid;
+  padding-left:230px;
+  padding-top: 180px;
+}
+.credits{
+  color: floralwhite;
+  border-style: solid;
+  padding-top: 200px;
+  padding-left: 630px;
+  font-size: 25px;
+  font-family: "Gruppo" sans-serif;
+}
+.namec{
+  color: floralwhite;
+  border-style: solid;
+  padding-top: 50px;
+  padding-left: 630px;
+  font-size: 25px;
+  font-family: "Anek Malayalam" sans-serif;
+  font-style: cursive;
+}
+.d{
+  border-style: solid white;
+  text-align: right;
+  font-family: "Cinzel",sans-serif;
+  padding-top: 100px;
+  color: red;
+}
+.v{
+  border-style: solid white;
+  text-align: right;
+  font-family: "Rock Salt",cursive;
+  color: white;
+}
